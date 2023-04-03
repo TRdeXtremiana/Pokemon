@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sinnoh</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Diego Extremiana">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+        }
+
+        .dcha {
+            float: right;
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Sinnoh</h1>
+
+    <p id="descripcioon"> Está al norte de <a href="../kanto/kanto.html">Kanto</a>. <br>
+        La región de Sinnoh, presenta una cantidad de climas muy variados pero predominan los fríos. <br>
+        La región es mayormente terrestre, con solo cinco rutas marinas.</p>
+
+    <p>Sinnoh:<img src="sinnoh.jpg" id="imgKanto" width="1000" alt="mapa de Sinnoh"></p>
+
+    <p id="lugares">Las diferentes ciudades, pueblos y rutas que forman Johto son las siguientes:
+    <ol id="mapa" style="columns: 2;">
+        <li>
+            <details>
+                <summary>Pueblo Hojaverde</summary>
+                <img src="pueblo_hojaverde.jpg" width="500" alt="mapa de Pueblo Hojaverde">
+            </details>
+            <ul>
+                <li>Casa del jugador</li>
+                <li>Casa del rival</li>
+            </ul>
+        </li>
+
+        <li>Lago Agudeza</li>
+
+        <li>
+            <details>
+                <summary>Pueblo Arena</summary>
+                <img src="Pueblo_Arena.jpg" width="500" alt="mapa de Pueblo Arena">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Casa de Maya/Leo</li>
+                <li>Laboratorio del Prof. Serball</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Jubileo</summary>
+                <img src="Ciudad_Jubileo.jpg" width="500" alt="mapa de Ciudad Jubileo">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Escuela de entrenadores</li>
+                <li>Jubileo TV</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Pirita</summary>
+                <img src="Ciudad_Pirita.jpg" width="500" alt="mapa de Ciudad Pirita">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Museo de restauración</li>
+                <li>Mina Pirita</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/roca.html">roca</a></summary>
+                        <img src="gimnasio_roca.jpg" width="500" alt="mapa del gimnasio Pirita">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Aromaflor</summary>
+                <img src="Pueblo_Aromaflor.jpg" width="500" alt="mapa de Pueblo Aromaflor">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Comercio de bayas</li>
+            </ul>
+        </li>
+
+        <li>Valle eólico</li>
+        <li>Forja fuego</li>
+        <li>Bosque Vetusto
+            <ul>
+                <li>Casa encantada</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Vetusta</summary>
+                <img src="Ciudad_Vetusta.jpg" width="500" alt="mapa de Ciudad Vetusta">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Casa del hombre topo</li>
+                <li>Casa del inspector de motes</li>
+                <li>Estatua</li>
+                <li>Tienda de bicicletas</li>
+                <li>Base Galaxia</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/planta.html">planta</a></summary>
+                        <img src="gimnasio_planta.jpg" width="500" alt="mapa del gimnasio Vetusta">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Corazón</summary>
+                <img src="Ciudad_Corazon.jpg" width="500" alt="mapa de Ciudad Corazón">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Parque compi</li>
+                <li>Estadio de concursos</li>
+                <li>Casa de Tecla</li>
+                <li>Pastelería de pokochos</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/fantasma.html">fantasma</a></summary>
+                        <img src="gimnasio_fantasma.jpg" width="500" alt="mapa del gimnasio Corazón">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>Mansion pokémon
+            <ul>
+                <li>Jardín trofeo</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Sosiego</summary>
+                <img src="Pueblo_Sosiego_Pt.jpg" width="500" alt="mapa de Pueblo Sosiego">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Guardería</li>
+                <li>Torre sosiego</li>
+                <li>Ruinas Sosiego</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Rocavelo</summary>
+                <img src="Ciudad_Rocavelo.jpg" width="500" alt="mapa de Ciudad Rocavelo">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Centro comercial</li>
+                <li>Central Galaxia</li>
+                <li>Casino</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/lucha.html">lucha</a></summary>
+                        <img src="gimnasio_lucha.jpg" width="500" alt="mapa del gimnasio Rocavelo">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>Lago Valor</li>
+        <li>Pueblo *</li>
+
+        <li>
+            <details>
+                <summary>Ciudad Pradera</summary>
+                <img src="Ciudad_Pradera.jpg" width="500" alt="mapa de Ciudad Pradera">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Zona safari</li>
+                <li>Pantano</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/agua.html">agua</a></summary>
+                        <img src="gimnasio_agua.jpg" width="500" alt="mapa del gimnasio Pradera">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Canal</summary>
+                <img src="Ciudad_Canal.jpg" width="500" alt="mapa de Ciudad Canal">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Puerto</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/acero.html">acero</a></summary>
+                        <img src="gimnasio_acero.jpg" width="500" alt="mapa del gimnasio Canal">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>Isla Hierro</li>
+
+        <li>
+            <details>
+                <summary>Pueblo Caelestis</summary>
+                <img src="Pueblo_Caelestis.jpg" width="500" alt="mapa de Pueblo Caelestis">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Herboristería</li>
+            </ul>
+        </li>
+
+        <li>Lago Veraz</li>
+
+        <li>
+            <details>
+                <summary>Ciudad Puntaneva</summary>
+                <img src="Ciudad_Puntaneva.jpg" width="500" alt="mapa de Ciudad Puntaneva">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/hielo.html">hielo</a></summary>
+                        <img src="gimnasio_hielo.jpg" width="500" alt="mapa del gimnasio Puntaneva">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Marina</summary>
+                <img src="Ciudad_Marina.jpg" width="500" alt="mapa de ciudad Marina">
+            </details>
+            <ul>
+                <li>Centro pokémon</li>
+                <li>Tienda</li>
+                <li>Tienda de sellos</li>
+                <li>Faro</li>
+                <li>Playa Marina</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokémon de tipo <a href="../../tipos/electrico.html">eléctrico</a></summary>
+                        <img src="gimnasio_electrico.jpg" width="500" alt="mapa del gimnasio Marina">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>Calle Victoria</li>
+        <li>Liga pokémon</li>
+
+        <li>Bahía Gresca
+            <ul>
+                <li>
+                    <details>
+                        <summary>Zona Sobrevivir</summary>
+                        <img src="Zona_Sobrevivir.jpg" width="500" alt="Mapa de la zona sobrevivir">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Zona Descanso</summary>
+                        <img src="Zona_Descanso.jpg" width="500" alt="Mapa de la zona descanso">
+                    </details>
+                </li>
+                <li>
+                    <details>
+                        <summary>Zona de combate</summary>
+                        <img src="Zona_Combate.jpg" width="500" alt="Mapa de la zona de combate">
+                    </details>
+                    <ul>
+                        <li>Frente batalla
+                            <ol>
+                                <li>Torre Batalla</li>
+                                <li>Fábrica Batalla</li>
+                                <li>Sala Batalla</li>
+                                <li>Ruleta Batalla</li>
+                                <li>Castillo Batalla</li>
+                            </ol>
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+    </ol>
+
+    <p id="pokemons">En Sinnoh se pueden enccontrar 107 especies de pokémons nativos:
+    <ol style="columns: 4;">
+        <li> - Turtwig</li>
+
+        <li> - Grotle</li>
+
+        <li> - Torterra</li>
+
+        <li> - Chimchar</li>
+
+        <li> - Monferno</li>
+
+        <li> - Infernape</li>
+
+        <li> - Piplup</li>
+
+        <li> - Prinplup</li>
+
+        <li> - Empoleon</li>
+
+        <li> - Starly</li>
+
+        <li> - Staravia</li>
+
+        <li> - Staraptor</li>
+
+        <li> - Bidoof</li>
+
+        <li> - Bibarel</li>
+
+        <li> - Kricketot</li>
+
+        <li>- Kricketune</li>
+
+        <li> - Shinx</li>
+
+        <li> - Luxio</li>
+
+        <li> - Luxray</li>
+
+        <li> - Budew</li>
+
+        <li> - Roserade</li>
+
+        <li> - Cranidos</li>
+
+        <li> - Rampardos</li>
+
+        <li> - Shieldon</li>
+
+        <li> - Bastiodon</li>
+
+        <li> - Burmy</li>
+
+        <li> - Wormadam</li>
+
+        <li> - Mothim</li>
+
+        <li> - Combee</li>
+
+        <li> - Vespiquen</li>
+
+        <li> - Pachirisu</li>
+
+        <li> - Buizel</li>
+
+        <li> - Floatzel</li>
+
+        <li> - Cherubi</li>
+
+        <li> - Cherrim</li>
+
+        <li> - Shellos</li>
+
+        <li> - Gastrodon</li>
+
+        <li> - Ambipom</li>
+
+        <li> - Drifloon</li>
+
+        <li> - Drifblim</li>
+
+        <li> - Buneary</li>
+
+        <li> - Lopunny</li>
+
+        <li> - Mismagius</li>
+
+        <li> - Honchkrow</li>
+
+        <li> - Glameow</li>
+
+        <li> - Purugly</li>
+
+        <li> - Chingling</li>
+
+        <li> - Stunky</li>
+
+        <li> - Skuntank</li>
+
+        <li> - Bronzor</li>
+
+        <li> - Bronzong</li>
+
+        <li> - Bonsly</li>
+
+        <li> - Mime Jr.</li>
+
+        <li> - Happiny</li>
+
+        <li> - Chatot</li>
+
+        <li> - Spiritomb</li>
+
+        <li> - Gible</li>
+
+        <li> - Gabite</li>
+
+        <li> - Garchomp</li>
+
+        <li> - Munchlax</li>
+
+        <li> - Riolu</li>
+
+        <li> - Lucario</li>
+
+        <li>- Hippopotas</li>
+
+        <li> - Hippowdon</li>
+
+        <li> - Skorupi</li>
+
+        <li> - Drapion</li>
+
+        <li> - Croagunk</li>
+
+        <li> - Toxicroak</li>
+
+        <li> - Carnivine</li>
+
+        <li> - Finneon</li>
+
+        <li> - Lumineon</li>
+
+        <li> - Mantyke</li>
+
+        <li> - Snover</li>
+
+        <li> - Abomasnow</li>
+
+        <li> - Weavile</li>
+
+        <li> - Magnezone</li>
+
+        <li> - Lickilicky</li>
+
+        <li> - Rhyperior</li>
+
+        <li> - Tangrowth</li>
+
+        <li>- Electivire</li>
+
+        <li> - Magmortar</li>
+
+        <li> - Togekiss</li>
+
+        <li> - Yanmega</li>
+
+        <li> - Leafeon</li>
+
+        <li> - Glaceon</li>
+
+        <li> - Gliscor</li>
+
+        <li> - Mamoswine</li>
+
+        <li> - Porygon-Z</li>
+
+        <li> - Gallade</li>
+
+        <li> - Probopass</li>
+
+        <li> - Dusknoir</li>
+
+        <li> - Froslass</li>
+
+        <li> - Rotom</li>
+
+        <li> - Uxie</li>
+
+        <li> - Mesprit</li>
+
+        <li> - Azelf</li>
+
+        <li> - Dialga</li>
+
+        <li> - Palkia</li>
+
+        <li> - Heatran</li>
+
+        <li> - Regigigas</li>
+
+        <li> - Giratina</li>
+
+        <li> - Cresselia</li>
+
+        <li> - Phione</li>
+
+        <li> - Manaphy</li>
+
+        <li> - Darkrai</li>
+
+        <li> - Shaymin</li>
+
+        <li> - Arceus</li>
+    </ol>
+
+    <footer>
+        <nav>
+
+            <p>Más regiones: 
+            <a href="../kanto/kanto.html">Kanto</a>
+            <a href="../johto/johto.html">Jhoto</a>
+            <a href="../hoenn/hoenn.html">Hoenn</a>
+        </p>
+        <a href="../../../index.html">Inicio</a>
+        <a href="../../pokedex.html"> Pokedex </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
