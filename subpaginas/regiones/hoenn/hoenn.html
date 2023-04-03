@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hoenn</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Diego Extremiana">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            padding: 25px;
+            background-color: white;
+            color: black;
+        }
+
+        .dcha {
+            float: right;
+            text-align: right;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Hoenn</h1>
+
+    <p id="descripcion">Hoenn es una isla, a diferencia de Johto y Kanto. En realidad, la región de Hoenn no es solo una
+        isla, ya que también incluye varias islas separadas, formando un archipiélago.
+    </p>
+
+    <img src="hoenn.jpg" id="imgHoenn" width="1000" alt="mapa de Hoenn">
+
+    <p id="lugares">
+        las diferentes ciudades, pueblos y rutas que forman Hoenn son las siguientes:
+    <ol id="mapa" style="columns: 2;">
+        <li>
+            <details>
+                <summary>Villa Raíz</summary>
+                <img src="Villa_Raíz.jpg" width="500" alt="mapa de Villa Raíz">
+            </details>
+            <ul>
+                <li>Casa del jugador</li>
+                <li>Casa del rival</li>
+                <li>Laboratorio del profesor Abedul</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Escaso</summary>
+                <img src="Pueblo_Escaso.jpg" width="500" alt="mapa de Pueblo Escaso">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Petalia</summary>
+                <img src="Ciudad_Petalia.jpg" width="500" alt="mapa de Ciudad Petalia">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Casa de Blasco</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokemon de tipo <a href="../../tipos/normal.html">normal</a></summary>
+                        <img src="gimnasio_normal.jpg" width="500" alt="mapa del gimnasio Petalia">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Férrica</summary>
+                <img src="Ciudad_Ferrica.jpg" width="500" alt="mapa de Ciudad Férrica">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Devon S.A</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokemon de tipo <a href="../../tipos/roca.html">roca</a></summary>
+                        <img src="gimnasio_roca.jpg" width="500" alt="mapa del gimnasio Férrica">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Azuliza</summary>
+                <img src="Pueblo_Azuliza.jpg" width="500" alt="mapa de Pueblo Azuliza">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>
+                    <details>
+                        <summary>Gimnasio pokemon de tipo <a href="../../tipos/lucha.html">lucha</a></summary>
+                        <img src="gimnasio_lucha.jpg" width="500" alt="mapa del gimnasio Azuliza">
+                    </details>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Portual</summary>
+                <img src="Ciudad_Portual.jpg" width="500" alt="mapa de Ciudad Portual">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Museo oceánico</li>
+                <li>Tienda batalla</li>
+                <li>Inspector de motes</li>
+                <li>Club de fans pokémon</li>
+                <li>Puerto</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Malvalona</summary>
+                <img src="Ciudad_Malvalona.jpg" width="500" alt="mapa de Ciudad Malvalona">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Tienda de bicicletas</li>
+                <li><details>
+                    <summary>Gimnasio pokemon de tipo <a href="../../tipos/electrico.html">eléctrico</a></summary>
+                    <img src="gimnasio_electrico.jpg" width="500" alt="mapa del gimnasio Malvalona">
+                </details></li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Verdegal</summary>
+                <img src="Pueblo_Verdegal.jpg" width="500" alt="mapa de Ciudad Verdegal">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Tienda batalla</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Lavacalda</summary>
+                <img src="Pueblo_Lavacalda.jpg" width="500" alt="mapa de Pueblo Lavacalda">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Herbolario</li>
+              <li>  <details>
+                    <summary>Gimnasio pokemon de tipo <a href="../../tipos/fuego.html">fuego</a></summary>
+                    <img src="Gimnasio_fuego.jpg" width="500" alt="mapa del gimnasio Lavacalda">
+                </details></li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Pardal</summary>
+                <img src="Pueblo_Pardal.jpg" width="500" alt="mapa de Pueblo Pardal">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Casa del profesor Cozmo</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Arborada</summary>
+                <img src="Ciudad_Arborada.jpg" width="500" alt="mapa de Ciudad Arborada">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+              <li>  <details>
+                    <summary>Gimnasio pokemon de tipo <a href="../../tipos/volador.html">volador</a></summary>
+                    <img src="gimnasio_volador.jpg" width="500" alt="mapa del gimnasio Arborada">
+                </details> </li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Calagua</summary>
+                <img src="Ciudad_Calagua.jpg" width="500" alt="mapa de Ciudad Calagua">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Edificio de concursos pokémon</li>
+                <li>Casa del quita-movimientos</li>
+                <li>Centro comercial</li>
+                <li>Motel Aguacala</li>
+                <li>Museo de ciudad Calagua</li>
+                <li>Club de fans pokémon</li>
+                <li>Puerto</li>
+                <li>Guarida del equipo Magma/Aqua</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Algaria</summary>
+                <img src="Ciudad_Algaria.jpg" width="500" alt="mapa de Ciudad Algaria">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Casa de Máximo (campeón)</li>
+                <li>Central espacial</li>
+                <li>Casa de minijuegos</li>
+                <li><details>
+                    <summary>Gimnasio pokemon de tipo <a href="../../tipos/psiquico.html">psiquico</a></summary>
+                    <img src="gimnasio_psiquico.jpg" width="500" alt="mapa del gimnasio Algaria">
+                </details></li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Arrecípolis</summary>
+                <img src="Arrecipolis.jpg" width="500" alt="mapa de Arrecipolis">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Tienda</li>
+                <li>Cueva Ancestral</li>
+                <li><details>
+                    <summary>Gimnasio pokemon de tipo <a href="../../tipos/hielo.html">hielo</a></summary>
+                    <img src="gimnasio_hielo.jpg" width="500" alt="mapa del gimnasio Arrecipolis">
+                </details></li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Pueblo Oromar</summary>
+                <img src="Pueblo_Oromar.jpg" width="500" alt="mapa de Pueblo Oromar">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+            </ul>
+        </li>
+
+        <li>
+            <details>
+                <summary>Ciudad Colosalia</summary>
+                <img src="Ciudad_Colosalia.jpg" width="500" alt="mapa de Ciudad Colosalia">
+            </details>
+            <ul>
+                <li>Centro Pokemon</li>
+                <li>Calle Victoria</li>
+                <li><details>
+                    <summary>Liga pokémon de Hoenn</summary>
+                    <img src="Liga_Hoenn.jpg" width="500" alt="Puerta de la liga pokémon de Hoenn">
+                </details></li>
+            </ul>
+        </li>
+
+
+    </ol>
+
+    <p id="pokemons">
+        En Hoenn se pueden encontrar 135 especies distintas de pokémons:
+    <ol id="pokedexHoenn" style="columns: 4;">
+
+        <li> - Treecko</li>
+
+        <li> - Grovyle</li>
+
+        <li> - Sceptile</li>
+
+        <li> - Torchic</li>
+
+        <li> - Combusken</li>
+
+        <li> - Blaziken</li>
+
+        <li> - Mudkip</li>
+
+        <li> - Marshtomp</li>
+
+        <li> - Swampert</li>
+
+        <li> - Poochyena</li>
+
+        <li> - Mightyena</li>
+
+        <li> - Zigzagoon</li>
+
+        <li> - Linoone</li>
+
+        <li> - Wurmple</li>
+
+        <li> - Silcoon</li>
+
+        <li> - Beautifly</li>
+
+        <li> - Cascoon</li>
+
+        <li> - Dustox</li>
+
+        <li> - Lotad</li>
+
+        <li> - Lombre</li>
+
+        <li> - Ludicolo</li>
+
+        <li> - Seedot</li>
+
+        <li> - Nuzleaf</li>
+
+        <li> - Shiftry</li>
+
+        <li> - Taillow</li>
+
+        <li> - Swellow</li>
+
+        <li> - Wingoll</li>
+
+        <li> - Pelipper</li>
+
+        <li> - Ralts</li>
+
+        <li> - Kirlia</li>
+
+        <li> - Gardevoir</li>
+
+        <li> - Surskit</li>
+
+        <li>- Masquerain</li>
+
+        <li> - Shroomish</li>
+
+        <li> - Breloom</li>
+
+        <li> - Slakoth</li>
+
+        <li> - Vigoroth</li>
+
+        <li> - Slaking</li>
+
+        <li> - Nincada</li>
+
+        <li> - Ninjask</li>
+
+        <li> - Shedinja</li>
+
+        <li> - Whismur</li>
+
+        <li> - Loudred</li>
+
+        <li> - Exploud</li>
+
+        <li> - Makuhita</li>
+
+        <li> - Hariyama</li>
+
+        <li> - Azurill</li>
+
+        <li> - Nosepass</li>
+
+        <li> - Skitty</li>
+
+        <li> - Delcatty</li>
+
+        <li> - Sableye</li>
+
+        <li> - Mawile</li>
+
+        <li> - Aron</li>
+
+        <li> - Lairon</li>
+
+        <li> - Aggron</li>
+
+        <li> - Meditite</li>
+
+        <li> - Medicham</li>
+
+        <li> - Electrike</li>
+
+        <li> - Manectric</li>
+
+        <li> - Plusle</li>
+
+        <li> - Minun</li>
+
+        <li> - Volbeat</li>
+
+        <li> - Illumise</li>
+
+        <li> - Roselia</li>
+
+        <li> - Golpin</li>
+
+        <li> - Swalot</li>
+
+        <li> - Carvanha</li>
+
+        <li> - Sharpedo</li>
+
+        <li> - Wailmer</li>
+
+        <li> - Wailord</li>
+
+        <li> - Numel</li>
+
+        <li> - Camerupt</li>
+
+        <li> - Torkoal</li>
+
+        <li> - Spoink</li>
+
+        <li> - Grumpig</li>
+
+        <li> - Spinda</li>
+
+        <li> - Trapinch</li>
+
+        <li> - Vibrava</li>
+
+        <li> - Flygon</li>
+
+        <li> - Cacnea</li>
+
+        <li> - Cacturne</li>
+
+        <li> - Swablu</li>
+
+        <li> - Altaria</li>
+
+        <li> - Zangoose</li>
+
+        <li> - Seviper</li>
+
+        <li> - Lunatone</li>
+
+        <li> - Solrock</li>
+
+        <li> - Barboach</li>
+
+        <li> - Whiscash</li>
+
+        <li> - Corphish</li>
+
+        <li> - Crawdaunt</li>
+
+        <li> - Baltoy</li>
+
+        <li> - Claydol</li>
+
+        <li> - Lileep</li>
+
+        <li> - Cradily</li>
+
+        <li> - Anorith</li>
+
+        <li> - Armaldo</li>
+
+        <li> - Feebas</li>
+
+        <li> - Milotic</li>
+
+        <li> - Castform</li>
+
+        <li> - Kecleon</li>
+
+        <li> - Shuppet</li>
+
+        <li> - Banette</li>
+
+        <li> - Duskoll</li>
+
+        <li> - Dusclops</li>
+
+        <li> - Tropius</li>
+
+        <li> - Chimecho</li>
+
+        <li> - Absol</li>
+
+        <li> - Wynaut</li>
+
+        <li> - Snorunt</li>
+
+        <li> - Glalie</li>
+
+        <li> - Spheal</li>
+
+        <li> - Sealeo</li>
+
+        <li> - Walrein</li>
+
+        <li> - Clamperl</li>
+
+        <li> - Huntail</li>
+
+        <li> - Gorebyss</li>
+
+        <li> - Relicanth</li>
+
+        <li> - Luvdisc</li>
+
+        <li> - Bagon</li>
+
+        <li> - Shelgon</li>
+
+        <li> - Salamence</li>
+
+        <li> - Beldum</li>
+
+        <li> - Metang</li>
+
+        <li> - Metagross</li>
+
+        <li> - Regirock</li>
+
+        <li> - Regice</li>
+
+        <li> - Registeel</li>
+
+        <li> - Latias</li>
+
+        <li> - Latios</li>
+
+        <li> - Kyogre</li>
+
+        <li> - Groudon</li>
+
+        <li> - Rayquaza</li>
+
+        <li> - Jirachi</li>
+
+        <li> - Deoxys</li>
+    </ol>
+
+    <footer>
+        <nav>
+
+            <p>Más regiones:
+                <a href="../kanto/kanto.html">Kanto</a>
+                <a href="../johto/johto.html">Jhoto</a>
+                <a href="../sinnoh/sinnoh.html">Sinnoh</a>
+            </p>
+            <a href="../../../index.html">Inicio</a>
+            <a href="../../pokedex.html"> Pokedex </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
