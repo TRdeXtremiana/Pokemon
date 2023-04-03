@@ -1,0 +1,126 @@
+/* Modo oscuro-claro */
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+}
+
+/* Posiciones en la pagina*/
+.dcha {
+    float: right;
+    text-align: right;
+}
+
+.centro {
+    float: inline-end;
+    text-align: center;
+}
+
+.izq {
+    float: left;
+    text-align: left;
+}
+
+/* Tablas y listas*/
+th,
+td {
+    width: 60px;
+    height: 20px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#listaTipos,
+#listaRegiones {
+    columns: 2.5cm;
+}
+
+/* Tipos de pokémon */
+.acero {
+    background-color: rgba(170, 170, 170, 0.65);
+}
+
+.agua {
+    background-color: rgba(112, 175, 226, 0.733);
+}
+
+.bicho {
+    background-color: rgba(172, 255, 47, 0.661);
+}
+
+.dragon {
+    background-color: rgba(90, 90, 203, 0.771);
+}
+
+.electrico {
+    background-color: rgb(234, 234, 119);
+}
+
+.fantasma {
+    background-color: rgba(128, 0, 128, 0.659);
+}
+
+.fuego {
+    background-color: orange;
+}
+
+.hada {
+    background-color: pink;
+}
+
+.hielo {
+    background-color: rgb(114, 221, 221);
+}
+
+.lucha {
+    background-color: rgba(179, 77, 75, 0.839);
+}
+
+/* El tipo normal no tendrá cambios */
+
+.planta {
+    background-color: rgb(87, 162, 87);
+}
+
+.psiquico {
+    background-color: rgb(218, 87, 109);
+}
+
+.roca {
+    background-color: rgba(181, 112, 28, 0.85);
+}
+
+.siniestro {
+    background-color: rgba(104, 52, 52, 0.672);
+}
+
+.tierra {
+    background-color: rgba(151, 50, 0, 0.692);
+}
+
+.veneno {
+    background-color: rgba(194, 49, 194, 0.768);
+}
+
+.volador {
+    background-color: rgba(127, 234, 255, 0.689);
+}
+
+/* Efectividades */
+.x0 {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+.x05 {
+    background-color: rgba(255, 166, 0, 0.455)
+}
+
+.x2 {
+    background-color: rgba(82, 222, 54, 0.775);
+}

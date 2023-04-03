@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokémon</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Diego Extremiana">
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <script src='main.js'></script>
+</head>
+
+
+<body>
+
+    <div class="centro">
+        <img src="logo.png" alt="logo pokémon" width="1000">
+    </div>
+
+    <p>Los pokémons nativos de cada región son distintos, ya que viven en diferentes biomas y ecosistemas.
+        Las diferentes regiones son las siguientes:
+
+    <ul id="listaRegiones">
+        <li><a href="subpaginas/regiones/kanto/kanto.html">Kanto</a></li>
+        <li><a href="subpaginas/regiones/Johto/Johto.html">Johto</a></li>
+        <li><a href="subpaginas/regiones/hoenn/hoenn.html">Hoenn</a></li>
+        <li><a href="subpaginas/regiones/sinnoh/sinnoh.html">Sinnoh</a></li>
+    </ul>
+
+    <p>Comenzaremos con lo básico, los 18 tipos distintos de pokémon:
+
+    <ul id="listaTipos">
+        <li class="acero"><a href="subpaginas/tipos/acero.html">Acero</a></li>
+        <li class="agua"><a href="subpaginas/tipos/agua.html">Agua</a></li>
+        <li class="bicho"><a href="subpaginas/tipos/bicho.html">Bicho</a></li>
+        <li class="dragon"><a href="subpaginas/tipos/dragon.html">Dragon</a></li>
+        <li class="electrico"><a href="subpaginas/tipos/electrico.html">Eléctrico</a></li>
+        <li class="fantasma"><a href="subpaginas/tipos/fantasma.html">Fantasma</a></li>
+        <li class="fuego"><a href="subpaginas/tipos/fuego.html">Fuego</a></li>
+        <li class="hada"><a href="subpaginas/tipos/hada.html">Hada</a></li>
+        <li class="hielo"><a href="subpaginas/tipos/hielo.html">Hielo</a></li>
+        <li class="lucha"><a href="subpaginas/tipos/lucha.html">Lucha</a></li>
+        <li class="normal"><a href="subpaginas/tipos/normal.html">Normal</a></li>
+        <li class="planta"><a href="subpaginas/tipos/planta.html">Planta</a></li>
+        <li class="psiquico"><a href="subpaginas/tipos/psiquico.html">Psiquico</a></li>
+        <li class="roca"><a href="subpaginas/tipos/roca.html">Roca</a></li>
+        <li class="siniestro"><a href="subpaginas/tipos/siniestro.html">Siniestro</a></li>
+        <li class="tierra"><a href="subpaginas/tipos/tierra.html">Tierra</a></li>
+        <li class="veneno"><a href="subpaginas/tipos/veneno.html">Veneno</a></li>
+        <li class="volador"><a href="subpaginas/tipos/volador.html">Volador</a></li>
+    </ul>
+
+
+    <div class="centro">
+        Estos tipos se relacionan de una forma lógica muy científica:
+        <br>
+        <iframe width="680" height="420" class="center" src="https://www.youtube.com/embed/D1TTiYKPQIw"
+            title="Ciencia_tipos" allowfullscreen></iframe>
+    </div>
+
+    <p>
+    <table id="tipos">
+        <caption>Cada tipo tiene ventajas y desventajas sobre los demás, las efectividades nos lo demuestran: </caption>
+        <thead>
+            <tr>
+                <th colspan="2" rowspan="2">Efectividades</th>
+                <th colspan="18">Tipo defensor</th>
+            </tr>
+
+            <tr id="tiposDef">
+                <td class="acero">Acero</td>
+                <td class="agua">Agua</td>
+                <td class="bicho">Bicho</td>
+                <td class="dragon">Dragon</td>
+                <td class="electrico">Electrico</td>
+                <td class="fantasma">Fantasma</td>
+                <td class="fuego">Fuego</td>
+                <td class="hada">Hada</td>
+                <td class="hielo">Hielo</td>
+                <td class="lucha">Lucha</td>
+                <td class="normal">Normal</td>
+                <td class="planta">Planta</td>
+                <td class="psiquico">Psiquico</td>
+                <td class="roca">Roca</td>
+                <td class="siniestro">Siniestro</td>
+                <td class="tierra">Tierra</td>
+                <td class="veneno">Veneno</td>
+                <td class="volador">Volador</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="19">Tipo de ataque</th>
+            </tr>
+
+            <tr id="filaAcero">
+                <td class="acero"> Acero </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x2"> x2 </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaAgua">
+                <td class="agua"> Agua </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaBicho">
+                <td class="bicho"> Bicho </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+            </tr>
+
+            <tr id="filaDragon">
+                <td class="dragon"> Dragon </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaElectrico">
+                <td class="electrico"> Electrico </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+            </tr>
+
+            <tr id="filaFantasma">
+                <td class="fantasma"> Fantasma </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaFuego">
+                <td class="fuego"> Fuego </td>
+                <td class="x2">x2</td>
+                <td class="x05"> 1/2 </td>
+                <td class="x2">x2</td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaHada">
+                <td class="hada"> Hada </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaHielo">
+                <td class="hielo"> Hielo </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1">-</td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+                <td class="x1"> - </td>
+                <td class="x2"> x2 </td>
+            </tr>
+
+            <tr id="filaLucha">
+                <td class="lucha"> Lucha </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x2">x2</td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+            </tr>
+
+            <tr id="filaNormal">
+                <td class="normal"> Normal </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaPlanta">
+                <td class="planta"> Planta </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x2">x2</td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+            </tr>
+
+            <tr id="filaPsiquico">
+                <td class="psiquico"> Psiquico </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaRoca">
+                <td class="roca"> Roca </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+            </tr>
+
+            <tr id="filaSiniestro">
+                <td class="siniestro"> Siniestro </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaTierra">
+                <td class="tierra"> Tierra </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x0"> x0 </td>
+            </tr>
+
+            <tr id="filaVeneno">
+                <td class="veneno"> Veneno </td>
+                <td class="x0"> x0 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+            </tr>
+
+            <tr id="filaVolador">
+                <td class="volador"> Volador </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x2">x2</td>
+                <td class="x1"> - </td>
+                <td class="x05"> 1/2 </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+                <td class="x1"> - </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <p id="estadisticas"> Lo más importante después de los tipos son las estadísticas de los pokémons.
+        Cada pokémon tiene unas estadísticas <abbr title="mínimas">base</abbr>, de cada característica:
+
+    <ul style="columns: 2;">
+        <li><abbr title="Heal Points - Puntos de vida">HP</abbr></li>
+
+        <li>Ataque físico</li>
+        <li>Defensa física</li>
+
+        <li>Ataque especial</li>
+        <li>Defensa especial</li>
+
+        <li>Velocidad</li>
+    </ul>
+
+    Cada característica puede ser aumentada tanto por los IVs como por los EVs:
+
+    <details>
+        <summary><abbr title="Genética">IVs</abbr></summary>Cada característica puede tener un máximo de 31 puntos,
+        son
+        aleatorios y no se pueden manipular. Se definen cuando un pokemon nace y se suman a las estadisticas base.
+    </details>
+
+    <details>
+        <summary><abbr title="Entrenamiento">EVs</abbr></summary> Cada pokémon que es derrotado nos da un EV de su
+        mejor característica (Electabuzz = velocidad), un Pokémon solo puede adquirir hasta 252 EVs en un solo
+        atributo, y un máximo de 510 EVs en total.
+    </details>
+
+    <details>
+        <summary>Naturaleza</summary> Todos los pokémons tienen una de las 25 naturalezas distintas, cada naturaleza
+        reduce un 10% de una estadística y le suma un 10% a otra:
+
+        <ul id="naturalezas" style="columns: 3;">
+            <li>Fuerte (Neutro)</li>
+            <li>Osada (-10% Ataque, +10% Defensa)</li>
+            <li>Modesta (-10% Ataque, +10% Ataque especial)</li>
+            <li>Serena (-10% Ataque, +10% Defensa especial)</li>
+            <li>Miedosa (-10% Ataque, +10% Velocidad)</li>
+
+            <li>Huraña (-10% Defensa, +10%Ataque)</li>
+            <li>Docil (Neutro)</li>
+            <li>Afable (-10% Defensa, +10% Ataque especial)</li>
+            <li>Amable (-10% Defensa, +10% Defensa especial)</li>
+            <li>Activa (-10% Defensa, +10% Velocidad)</li>
+
+            <li>Firme (-10% Ataque especial, +10% Ataque)</li>
+            <li>Agitada (-10% Ataque especial, +10% Defensa )</li>
+            <li>Tímida (Neutro)</li>
+            <li>Cauta (-10% Ataque especial, +10% Defensa especial)</li>
+            <li>Alegre (-10% Ataque especial +10% Velocidad)</li>
+
+            <li>Pícara (-10% Defensa especial, +10% Ataque)</li>
+            <li>Floja (-10% Defensa especial, +10% Defensa)</li>
+            <li>Alocada (-10% Defensa especial, +10% Ataque especial)</li>
+            <li>Rara (Neutro)</li>
+            <li>Ingenua (-10% Defensa especial, +10% Velocidad)</li>
+
+            <li>Audaz (-10% Velocidad, +10% Ataque)</li>
+            <li>Placida (-10% Velocidad, +10% Defensa)</li>
+            <li>Mansa (-10% Velocidad, +10% Ataque especial)</li>
+            <li>Grosera (-10% Velocidad, +10% Defensa especial)</li>
+            <li>Seria (Neutro) </li>
+        </ul>
+
+    </details>
+
+
+    <footer>
+        <nav>
+            <a href=subpaginas/pokedex.html>Pokedex</a>
+        </nav>
+    </footer>
+</body>
+
+</html>
